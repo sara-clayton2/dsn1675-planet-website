@@ -100,7 +100,7 @@
   visibility: visible;
 }
 
-@media only screen and (min-width: 20em) {
+@media only screen and (min-width: 30em) {
 
 .unit-s-hidden {
   display: none;
@@ -164,7 +164,7 @@
 
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 40em) {
 
 .unit-m-hidden {
   display: none;
@@ -228,7 +228,7 @@
 
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 50em) {
 
 .unit-l-hidden {
   display: none;

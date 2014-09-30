@@ -59,7 +59,7 @@ img {
         text-decoration: none;
     } 
 
-@media only screen and (min-width: 20em) { 
+@media only screen and (min-width: 30em) { 
     
 	 .nav { 
 			text-align: center;
