@@ -25,6 +25,11 @@ body {
   padding: 0;
 }
 
+.gutter { 
+	padding-left: 1em; 
+	padding-right: 1em; 
+} 
+
 img {
    display: block;
    width: 100%;
