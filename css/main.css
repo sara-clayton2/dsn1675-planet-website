@@ -63,6 +63,7 @@ img {
     
 	 .nav { 
 			text-align: center;
+		 	padding: 0;
 		} 
 
 	 .nav li { 
@@ -70,12 +71,18 @@ img {
 	}
 }
 
-@media only screen and (min-width: 40em) { 
  
-		.title {
-			float: left; 
-	} 
-		.nav li { 
-			float: left;
+@media only screen and (min-width: 40em) { 
+  .nav { 
+			text-align: left;
+	  		padding: 0;
+		} 
+	 .nav li { 
+			display:left; 
+	}
+	
+	.title { 
+		text-align: left;
 	}
 }
+
