@@ -41,6 +41,16 @@ img {
 	overflow: hidden;
 }
 
+.mediumgrey { 
+	background-color: #d3d3d3;
+	overflow: hidden;
+}
+
+.lightgrey { 
+	background-color: #E8E8E8;
+	overflow: hidden;
+}
+
 .banner { 
 	background-color: #d3d3d3;
 	overflow: hidden;
