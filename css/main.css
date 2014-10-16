@@ -127,16 +127,30 @@ img {
 			text-align: right;
 			width: 150%;
 	}
+	
+	.footer { 
+			text-align: left;
+	}
+	
 }
 
  
-@media only screen and (min-width: 50em) { 
+@media only screen and (min-width: 60em) { 
 
 	 .footer ul { 
 			text-align: right;
 		 	width: 150%;
 	}
-	 
+	
+	.footer { 
+			text-align: left;
+	}
+	  
+	dt {
+			display:inline;
+			float:left;
+			width: 40%;
+	} 
 	
 }
 
