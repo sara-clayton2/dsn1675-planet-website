@@ -111,12 +111,13 @@ img {
 
  
 @media only screen and (min-width: 40em) { 
-  .nav { 
+     .nav { 
 			text-align: left;
 	  		padding: 0;
 		} 
+	
 	 .nav li { 
-			display:left; 
+			display:center;
 	}
 	
 	.title { 
@@ -151,6 +152,12 @@ img {
 			float:left;
 			width: 40%;
 	} 
-	
+	  .nav { 
+			text-align: left;
+	  		padding: 0;
+		} 
+	 .nav li { 
+			display:center; 
+	}
 }
 
