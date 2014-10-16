@@ -103,6 +103,10 @@ img {
 	 .nav li { 
 			display:inline-block; 
 	}
+	
+	.footer { 
+			text-align: center;
+	}
 }
 
  
@@ -116,7 +120,23 @@ img {
 	}
 	
 	.title { 
-		text-align: left;
+			text-align: left;
 	}
+	
+	.footer ul { 
+			text-align: right;
+			width: 150%;
+	}
+}
+
+ 
+@media only screen and (min-width: 50em) { 
+
+	 .footer ul { 
+			text-align: right;
+		 	width: 150%;
+	}
+	 
+	
 }
 
