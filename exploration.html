@@ -10,13 +10,19 @@
 	  <link href="css/typography.css" rel="stylesheet">
 	</head>
 	<body>
-		<header class="grey"> 
+		
+		<ul class="skip-links">
+			<li><a href="#main">Jump to main content</a></li>
+			<li><a href="#navigation">Jump to navagation</a></li>
+		</ul>
+		
+		<header role="banner" class="grey"> 
 			<div class="grid">
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4"> 
 				<h1 class="title gutter">Mars</h1> 
 				</div>
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2"> 
-					<nav>
+					<nav id="navigation" role="navigation">
 						<ul class="nav"> 
 							<li class="island-half"><a href="index.html">Planet</a></li>
 							<li class="island-half"><a href="moon.html">Moons</a></li>
@@ -26,12 +32,16 @@
 				</div>	
 			</div>	
 		</header> 
+		
+	 <main id="main" role="main">
 	
-	<h1 class="header">Exploration</h1>
+		<h1 class="header">Exploration</h1>
+			
+	</main>		
 		
 		<footer class="grey island-half footer"> 
 			<div class="grid">
-				<div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4"> 
+				<div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-4"> 
 			<h3 class="copyright micro">© 2014 Mars Planetary Consortium</h3> 
 				</div>
 				<div class="unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4"> 
