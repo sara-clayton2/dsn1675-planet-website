@@ -157,6 +157,77 @@ li {
 	padding: 0;
 }
 
+.form { 
+	padding: 2em; 
+	background-color: #e2e2e2;
+
+}
+
+label { 
+	display: block; 
+}
+
+input + label { 
+	display: inline-block;
+	border-color: #d0d0d0;
+}
+
+fieldset { 
+	border-style: none;
+	margin:0; 
+	padding: 0;
+}
+ 
+legend { 
+ font-style: italic;
+ display: inline-block;
+ 
+ }
+
+.signup {  
+	cursor: pointer;
+	text-align: center;	
+	border: 0.5em;
+}
+
+.buttonbox { 
+	text-align: center;
+	padding-top: 1em;
+}
+
+button { 
+	background-color: white; 
+	font-size: 0.9em;
+	margin:0; 
+	padding: 0;
+}
+
+textarea { 
+	height: 12em;
+	width: 100%;
+	border-color: #d0d0d0;
+}
+
+.age, 
+.email, 
+.name { 
+	width: 100%; 
+	font-size: 1.5em;
+}
+
+.formtitle { 
+	text-align: center;
+}
+
+.radio { 
+	white-space: nowrap;
+}
+
+form { 
+	max-width: 35em; 
+	margin:0 auto;
+}
+
 @media only screen and (min-width: 30em) { 
     
 	 .nav { 
@@ -194,7 +265,6 @@ li {
 	
 	.footer { 
 			text-align: right;	
-	
 	}
 }
 
