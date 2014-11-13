@@ -55,7 +55,7 @@ a:active {
 a,
 a:link,
 a:visited {
-  color: #0074D9;	
+  color: #FF8533;	
 }
 
 a:focus {
@@ -100,7 +100,7 @@ a:focus {
 .nav a:link,
 .nav a:visited {
   display: block;
-  color: #0074D9;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ a:focus {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-  background-color: #0074D9;
+  background-color: #FF8533;
   color: #fff;
 }
 
@@ -126,43 +126,47 @@ img {
 }
 
 .grey { 
-	background-color: #AAAAAA;
+	background-color: #282828;
 	overflow: hidden;
 }
 
 .mediumgrey { 
-	background-color: #d3d3d3;
+	background-color: #404040;
 	overflow: hidden;
 }
 
 .lightgrey { 
-	background-color: #E8E8E8;
+	background-color: #585858;
 	overflow: hidden;
 }
 
 .banner { 
-	background-color: #d3d3d3;
+	background-color: #585858;
 	overflow: hidden;
 	text-align: center;
 	font-weight: 300;
 }
 
 .header{ 
-	background-color: #E8E8E8;
+	background-color: #585858;
 	overflow: hidden;
 	text-align: center;
 }
 
 
+.formtitle { 
+ 	color:#404040;
+}
 
 .title { 
     margin: 0; 
     padding: 0; 
     text-align: center;
+	color: #FF8533;
 }
 
 .figcap { 
-
+ color: #fff;
 }
 
 .footer{ 
@@ -170,6 +174,7 @@ img {
 	overflow: hidden;
 	margin: 0; 
 	padding: 0;
+	color: #fff;
 }
 
 .copyright{ 
@@ -187,7 +192,7 @@ li {
 
 .form { 
 	padding: 2em; 
-	background-color: #e2e2e2;
+	background-color: #FF8533;
 
 }
 
@@ -216,11 +221,16 @@ legend {
 	cursor: pointer;
 	text-align: center;	
 	border: 0.5em;
+	color: ;
 }
 
 .buttonbox { 
 	text-align: center;
 	padding-top: 1em;
+}
+
+h2 { 
+	color: #FF8533;
 }
 
 button { 
@@ -245,6 +255,10 @@ textarea {
 
 .formtitle { 
 	text-align: center;
+}
+
+dl { 
+	color: #585858;
 }
 
 .radio { 
@@ -281,13 +295,14 @@ td {
 }
 
 thead th {
-  background-color: #e2e2e2;
+  background-color: #282828;
   border-bottom: 1px solid #ccc;
+ color: #fff;	
 }
 
 tbody th,
 tbody td {
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #282828;
 }
 
 @media only screen and (min-width: 30em) { 
